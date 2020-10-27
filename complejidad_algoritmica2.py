@@ -26,7 +26,7 @@ class ComplejidadAlgoritmica:
         return 2**self.number
 
 def main():
-    nums = [1,5,10,15,20,30,100,1000,1000000000]
+    nums = [1,5,10,15,20,30,100,1000,10000]
 
     for n in nums:
         
