@@ -3,7 +3,7 @@ import random
 def busqueda_lineal(lista, buscar):
     match = False
 
-    for elemento in lista: 
+    for elemento in lista: #O(n)
         if elemento == buscar:
             match = True
             break
